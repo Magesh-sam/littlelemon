@@ -1,0 +1,104 @@
+
+html,body{
+    font-family: Roboto;
+    height: 100%;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    text-indent: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+li{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h1{
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    
+}
+section{
+    display: flex;
+    margin-bottom: 25px;
+}
+article{
+    flex: 1;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 15px 37px 2px rgba(0,0,0,0.78);
+-webkit-box-shadow: 12px 15px 37px 2px rgba(0,0,0,0.78);
+-moz-box-shadow: 12px 15px 37px 2px rgba(0,0,0,0.78);
+}
+
+.card-text{
+    color: black;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(148, 148, 240);
+    margin-bottom: 0;
+
+}
+footer div{
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.5;
+
+}
+h3,h5{
+    color: black;
+    opacity: 2;
+}
+.btn-primary{
+    text-decoration: none;
+}
+.btn-primary:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    box-shadow: -1px 2px 32px 16px rgba(50,133,201,0.75);
+    -webkit-box-shadow: -1px 2px 32px 16px rgba(50,133,201,0.75);
+    -moz-box-shadow: -1px 2px 32px 16px rgba(50,133,201,0.75);
+}
+.btn-success{
+    text-decoration: none;
+}
+.btn-success:hover{
+    
+    box-shadow: -1px 2px 32px 16px rgba(65, 182, 30, 0.75);
+    -webkit-box-shadow: -1px 2px 32px 16px rgba(65, 182, 30, 0.75);
+    -moz-box-shadow: -1px 2px 32px 16px rgba(65, 182, 30, 0.75);
+}
